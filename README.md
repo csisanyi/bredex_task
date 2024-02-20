@@ -1,4 +1,5 @@
-h2 credentials in resources/application.yml
-h2 available at http://localhost:8080/h2-console
-swagger available at http://localhost:8080/swagger-ui/index.html
-db initialized with data from resources/data.sql
+- H2 credentials in `resources/application.yml`
+- H2 available at [http://localhost:8080/h2-console](http://localhost:8080/h2-console)
+- Swagger available at [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
+- Database initialized with data from `resources/data.sql`
+- Pre-built app can be run with `java -jar bredex-task-0.0.1-SNAPSHOT.jar`
