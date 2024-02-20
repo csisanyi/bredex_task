@@ -20,7 +20,6 @@ public class PositionController {
 
     private final PositionService positionService;
 
-    @Autowired
     public PositionController(PositionService positionService) {
         this.positionService = positionService;
     }
