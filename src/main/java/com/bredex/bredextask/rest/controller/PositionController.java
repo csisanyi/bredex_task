@@ -33,7 +33,7 @@ public class PositionController {
         try {
             positionService.isValidApiKey(apiKey);
         } catch (Exception e) {
-            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Invalid API key");
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(e.toString());
         }
 
         Position position = new Position(positionRequest.getName(), positionRequest.getLocation());
