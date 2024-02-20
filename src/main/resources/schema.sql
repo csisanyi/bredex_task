@@ -9,7 +9,6 @@ CREATE TABLE IF NOT EXISTS client (
 -- Create table for Position entity
 CREATE TABLE IF NOT EXISTS position (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
-    title VARCHAR(50),
     location VARCHAR(50),
     name VARCHAR(50)
 );
