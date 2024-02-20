@@ -1,3 +1,5 @@
+This is a Spring Boot application
+
 - H2 credentials in `resources/application.yml`
 - H2 available at [http://localhost:8080/h2-console](http://localhost:8080/h2-console)
 - Swagger available at [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
