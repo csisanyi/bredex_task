@@ -4,7 +4,7 @@ This is a Spring Boot application
 - H2 available at [http://localhost:8080/h2-console](http://localhost:8080/h2-console)
 - Swagger available at [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
 - Database initialized with data from `resources/data.sql`
-- Pre-built app can be run with `java -jar bredex-task-0.0.1-SNAPSHOT.jar`
+- Pre-built app can be run with `java -jar bredex-task-0.0.1-SNAPSHOT.jar` or build from source
 
 Továbbfejlesztési lehetőségek:
 - Client és Position entitások összekapcsolása foreign key használatával. Ez külön nem volt említve a feladatok között így egyelőre nem kapcsoltam őket össze.
